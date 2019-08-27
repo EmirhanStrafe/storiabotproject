@@ -117,7 +117,7 @@ client.on("ready", async () => {
   require("./modules/dashboard.js")(client); 
   
   console.log(`${chalk.green(client.user.username)}${chalk.red(",")} ${chalk.blue(client.guilds.size)} ${chalk.yellow("Sunucu'ya")} ${chalk.red("ve")} ${chalk.blue(client.users.size.toLocaleString())} ${chalk.yellow("Kullanıcı'ya")} ${chalk.red("hizmet veriyor!")}`)
-  client.user.setStatus("dnd");
+  client.user.setStatus("online");
   client.user.setActivity(`${client.ayarlar.prefix}yardım | ${client.ayarlar.web}`, { type: 'WATCHING' });
        let embed = new Discord.RichEmbed()
 .setTitle('**Storia Durumu**')
