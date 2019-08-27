@@ -36,8 +36,8 @@ client.ayarlar = {
         "sahip": ["499936631730470941"],
         "yardimcilar": ['499936631730470941'],
         "isim": "Storia",
-        "dblO": "https://discordbots.org/bot/559720149175894038/vote",
-        "dbl": "https://discordbots.org/bot/559720149175894038",
+        "dblO": "https://discordbots.org",
+        "dbl": "https://discordbots.org",
         "botD": "https://discordapp.com/oauth2/authorize?client_id=615805149201301504&scope=bot&permissions=805314622",
         "webS": "https://storiabot.glitch.me",
         "web": "https://storiabot.glitch.me",
@@ -120,13 +120,13 @@ client.on("ready", async () => {
   client.user.setStatus("dnd");
   client.user.setActivity(`${client.ayarlar.prefix}yardım | ${client.ayarlar.web}`, { type: 'WATCHING' });
        let embed = new Discord.RichEmbed()
-.setTitle('** Konya BoT Durum**')
+.setTitle('**Storia Durumu**')
 .setDescription(`**Bot aktif!** \n Botu açılış itibariyle şuan; **${client.guilds.size}** sunucu\n**${client.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString() + ``}** kullanıcı kullanıyor!`)
 .setTimestamp()
 .setThumbnail(client.user.avatarURL)
 .setColor('40bcdb')
 .setFooter(`${client.user.username} `, client.user.avatarURL)
- client.channels.get("570628226095775744").send(embed);
+ client.channels.get("615584830339678208").send(embed);
 })
 
 client.on("message", async message => {
