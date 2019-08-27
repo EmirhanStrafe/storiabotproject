@@ -10,7 +10,7 @@ exports.run = async (client, message, args) => {
     .setColor("RANDOM")
     .setDescription("Bu komutu kullanabilmeniz için Premium modun aktif olması gerek!")
     .addField("Premium Nasıl Aktif Edilir? (Merak etmeyin paralı değil)", "Sunucunuzda botun kullandığınız her komutu sunucunuza puan kazandırmaktadır. Sunucunuz 50 puana ulaştığında Premium otomatik olarak aktif edilecek, sunucu sahibine özel mesaj olarak ve Sunucu seviyesini 50 puan yapan 50 puan için son komutun kullanıldığı kanala bildirilecektir.")
-    .addField("Sunucu Puanını Nerden Göreceğim?", "`k!sunucu-bilgi` veya `k!premium puan` yazarak görebilirsiniz.")
+    .addField("Sunucu Puanını Nerden Göreceğim?", "`s!sunucu-bilgi` veya `s!premium puan` yazarak görebilirsiniz.")
     message.channel.send(e)
     return
   }

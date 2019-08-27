@@ -7,8 +7,8 @@ exports.run = async (client, message, args) => {
   var s = 'tr'
   var m = "`"+client.ayarlar.prefix+"ayarlar destek` yazarak görebilirsiniz."
   var l = "Liste"
-  var o = "Sıfırlanmasını istediğiniz ayarı yazınız! \nBir ayarı sıfırlamak için o ayarın anahtar kelimesini yazmalısınız. \nAnahtar kelimeler için `k!ayarlar liste` yazabilirsiniz."
-  var f = "NOT: \"k!ayarlar kapat hepsi\" yazar iseniz bütün ayarları sıfırlar."
+  var o = "Sıfırlanmasını istediğiniz ayarı yazınız! \nBir ayarı sıfırlamak için o ayarın anahtar kelimesini yazmalısınız. \nAnahtar kelimeler için `s!ayarlar liste` yazabilirsiniz."
+  var f = "NOT: \"s!ayarlar kapat hepsi\" yazar iseniz bütün ayarları sıfırlar."
     if(db.has(`dil_${message.guild.id}`) === true) {
         var s = 'en'
         var m = "To see: `"+client.ayarlar.prefix+"settings support`"

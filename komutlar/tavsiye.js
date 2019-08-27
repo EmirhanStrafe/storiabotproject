@@ -4,7 +4,7 @@ exports.run = (client, message, args) => {
    let type = args.slice(0).join(' ');
     if (type.length < 1) return message.channel.send(
 new Discord.RichEmbed()
-.setDescription('Kullanım: k!tavsiye <Tavsiyeniz>'));
+.setDescription('Kullanım: s!tavsiye <Tavsiyeniz>'));
 const embed = new Discord.RichEmbed()
 .setColor('RANDOM')
 .setDescription('Tavsiyeniz Bildirildi!')
