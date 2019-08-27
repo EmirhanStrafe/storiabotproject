@@ -38,7 +38,7 @@ client.ayarlar = {
         "isim": "Storia",
         "dblO": "https://discordbots.org",
         "dbl": "https://discordbots.org",
-        "botD": "https://discordapp.com/oauth2/authorize?client_id=615805149201301504&scope=bot&permissions=805314622",
+        "botD": "https://discordapp.com/oauth2/authorize?client_id=615805149201301504&scope=bot&permissions=2146958719&redirect_uri=storiabot.glitch.me%2Fcallback",
         "webS": "https://storiabot.glitch.me",
         "web": "https://storiabot.glitch.me",
         "versiyon": "0.0.1",
