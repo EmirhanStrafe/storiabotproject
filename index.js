@@ -32,9 +32,9 @@ require("./modules/functions.js")(client);
 client.ayar = db;
 
 client.ayarlar = {
-        "official_sahip": ["441169716547944448", "441169716547944448"],
-        "sahip": ["441169716547944448"],
-        "yardimcilar": ['441169716547944448'],
+        "official_sahip": ["499936631730470941", "499936631730470941"],
+        "sahip": ["499936631730470941"],
+        "yardimcilar": ['499936631730470941'],
         "isim": "Storia",
         "dblO": "https://discordbots.org/bot/559720149175894038/vote",
         "dbl": "https://discordbots.org/bot/559720149175894038",
