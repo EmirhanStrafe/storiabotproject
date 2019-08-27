@@ -7,7 +7,7 @@ module.exports.run = async (client, message, args) => {
   let arg = args.slice(0).join(' ');
   if(arg < 1) return message.channel.send("Lütfen ayarlamak istediğiniz ön-eki yazınız! \n(`varsayılan` yazarsanız botun orjinal ön ekini ayarlayacaktır.)")
 
-  if (arg === "r?") return message.reply("Botun orjinal ön ekini özel ön ek olarak ayarlayamazsın! \nEğer ön ekin botun normal ön eki olmasını istiyorsan `k!` yerine `varsayılan` yazarak ön-ek komutunu kullan!")
+  if (arg === "r?") return message.reply("Botun orjinal ön ekini özel ön ek olarak ayarlayamazsın! \nEğer ön ekin botun normal ön eki olmasını istiyorsan `s!` yerine `varsayılan` yazarak ön-ek komutunu kullan!")
   
   if (arg === "varsayılan") {
     
