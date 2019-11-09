@@ -72,7 +72,7 @@ if (db.has(`prefix_${message.guild.id}`) === false) {
     if (db.has(`karalist_${message.author.id}`) === true) {
     let embed = new Discord.RichEmbed()
     .setColor("RANDOM")
-    .setDescription("**Sen botun komutlarını kullanamazsın! Çünkü botun kara listesindesin Neden Alındıgını Öğrenmek İçin https://invite.gg/konya destek sunucumuza gel**")
+    .setDescription("**Sen botun komutlarını kullanamazsın! Çünkü botun kara listesindesin Neden Alındıgını Öğrenmek İçin www.StoriaNetwork.tk/discord destek sunucumuza gel**")
     message.channel.send({embed: embed})
     message.react("495314196796538891")
     return
