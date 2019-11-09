@@ -15,7 +15,7 @@ const embed2 = new Discord.RichEmbed()
 .addField(`**Kulanıcı Bilgileri**`, `**Kullanıcı ID**: ${message.author.id}\nKullanıcı Adı: ${message.author.username}\n**Kullanıcı Tagı**: ${message.author.discriminator}`)
 .addField("Tavsiye", type)
 .setThumbnail(message.author.avatarURL)
-client.channels.get('558305187589128193').send(embed2); // Kanal ID
+client.channels.get('642790039201513504').send(embed2); // Kanal ID
 
 };
 
