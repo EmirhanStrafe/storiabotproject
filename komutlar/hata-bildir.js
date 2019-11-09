@@ -11,13 +11,13 @@ const ozelmesajuyari = new Discord.RichEmbed()
 return message.author.sendEmbed(ozelmesajuyari); }
 let guild = message.guild
 let mesaj = args.slice(0).join(' ');
-  if (mesaj.length < 1) return message.channel.send(new Discord.RichEmbed().setTitle(`Konya Bot - Hata Bildirimi`).setColor("RANDOM").setDescription('\`\`\`Doğru Kullanım :: s!hatabildir hata Gibi!\`\`\` '));
+  if (mesaj.length < 1) return message.channel.send(new Discord.RichEmbed().setTitle(`Storia Bot - Hata Bildirimi`).setColor("RANDOM").setDescription('\`\`\`Doğru Kullanım :: s!hatabildir hata Gibi!\`\`\` '));
   const tavsiye1 = new Discord.RichEmbed()
     .setColor("RANDOM")
     .setDescription(':open_file_folder: Hata Başarıyla Gönderildi !\n:page_facing_up: Hata İletildi Teşekürler.')
   message.channel.send(tavsiye1);
 const tavsiye = new Discord.RichEmbed()
-  .setTitle(`Konya Bot - Hata Bildirimi`)
+  .setTitle(`Storia Bot - Hata Bildirimi`)
   .setColor("RANDOM")
   .setThumbnail(message.author.avatarURL)
   .setDescription(':newspaper2: **' + message.author.tag + '** adlı kullanıcının Hatası;')

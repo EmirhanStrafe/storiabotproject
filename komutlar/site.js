@@ -5,7 +5,7 @@ var embed = new Discord.RichEmbed()
 
 
 .setTitle(`Sitenizin Linki Aşağıdadır`)
-.setDescription("**https://konyabott.glitch.me**")
+.setDescription("**https://storiabot.glitch.me**")
 .setColor("#ff0a0a")
 .setTimestamp()
 message.channel.sendEmbed(embed)

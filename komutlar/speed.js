@@ -6,7 +6,7 @@ exports.run = async (client, message, args) => {
   
 
    const embed = new Discord.RichEmbed()
-   .setAuthor('Konya Bot | Speed Test ')
+   .setAuthor('Storia Bot | Speed Test ')
    .setDescription(' Gerekli Veriler Hesaplanıyor...')
    .setTimestamp()
    .setColor("RANDOM")
